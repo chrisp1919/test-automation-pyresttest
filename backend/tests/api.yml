@@ -6,5 +6,10 @@
     - name: "Basic get"
     - url: "/articles"
     - curl_option_followlocation: True
-
-
+- test:
+    - name: "Create article"
+    - url: "/articles/"
+    - method: "POST"
+    - body: '{"title": "Newspaper","content": "Hello World"}'
+    - headers: {Content-Type: application/json}
+    - curl_option_followlocation: True
