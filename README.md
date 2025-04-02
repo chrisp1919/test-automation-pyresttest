@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # How to run:
 
 ```
@@ -9,3 +10,4 @@ docker-compose up -d
 ```
 docker-compose run --rm backend ./tests.sh
 ```
+
